@@ -36,7 +36,7 @@ def plot_fruit_knn(x_data, y_data, n_neighbors, weights): # pylint: disable=R091
     plt.pcolormesh(mesh_xx, mesh_yy, mesh_z, cmap=cmap_light, shading='auto')
     # Plot training points
     plt.scatter(x_mat[:, 0], x_mat[:, 1], s=plot_symbol_size,
-                c='y', cmap=cmap_bold, edgecolor='black')
+                c=y_data, cmap=cmap_bold, edgecolor='black')
     plt.xlim(mesh_xx.min(), mesh_xx.max())
     plt.ylim(mesh_yy.min(), mesh_yy.max())
 
