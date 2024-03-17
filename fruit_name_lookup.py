@@ -1,6 +1,10 @@
+'''
+This module contains a function that takes in the fruits dataframe
+and returns a dictionary that maps the fruit_label to the fruit_name.
+'''
+
 def fruit_name_lookup(fruits):
     '''
-    This function takes in the fruits dataframe and returns a dictionary that maps the fruit_label to the fruit_name.
     parameters: fruits (DataFrame) - the fruits dataset
     returns: dict - a dictionary that maps the fruit_label to the fruit_name
     '''
