@@ -1,3 +1,6 @@
+'''
+This module contains functions for loading data from files.
+'''
 import pandas as pd
 
 def load_txt(table_name):
